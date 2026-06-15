@@ -1,0 +1,70 @@
+.main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  color: #6e6e73;
+  font-weight: 700;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 7vw, 5.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.06em;
+  margin: 1rem auto;
+  max-width: 900px;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #6e6e73;
+  max-width: 760px;
+  margin: 0 auto 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+.card {
+  border: 1px solid #e5e5e5;
+  border-radius: 24px;
+  padding: 1.5rem;
+  background: #fbfbfd;
+  min-height: 210px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.card h3 {
+  margin-top: 0;
+  letter-spacing: -0.03em;
+}
+
+.card p {
+  color: #6e6e73;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

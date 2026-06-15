@@ -1,0 +1,29 @@
+:root {
+  --ifm-color-primary: #111111;
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #333333;
+  --ifm-color-primary-lighter: #444444;
+  --ifm-color-primary-lightest: #555555;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", sans-serif;
+  --ifm-heading-font-weight: 700;
+}
+
+.navbar {
+  backdrop-filter: blur(18px);
+  background: rgba(255,255,255,0.78);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+}
+
+.markdown h1 {
+  letter-spacing: -0.04em;
+}
+
+.markdown h2 {
+  letter-spacing: -0.03em;
+}
